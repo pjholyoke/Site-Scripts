@@ -12,7 +12,7 @@
 
 //"use strict";
 (function() {
-	"use strict";
+"use strict";
 	
     // Add subtle hint to searchbar and instructions.
     $('#masthead-search-term').attr("placeholder", "Open the dev console (F12 / Ctrl+Shift+I)");
