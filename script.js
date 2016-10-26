@@ -12,6 +12,8 @@
 
 //"use strict";
 (function() {
+	"use strict";
+	
     // Add subtle hint to searchbar and instructions.
     $('#masthead-search-term').attr("placeholder", "Open the dev console (F12 / Ctrl+Shift+I)");
     console.log(
@@ -115,7 +117,7 @@ Some stuff I thought of but didn't get around to:\n
     });
 
 
-})(); // end onload
+})();
 
 // Methods
 function getUrls() {
